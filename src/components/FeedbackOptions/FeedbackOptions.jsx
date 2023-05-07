@@ -10,7 +10,7 @@ export function FeedbackOptions ({options, onLeaveFeedback}) {
                      name = {option}
                      type="button"
                      onClick = {event => onLeaveFeedback(option)}>
-                        {option}          
+                    {option}          
                     </Button>
                 </li>
             ))}
